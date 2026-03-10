@@ -1,6 +1,6 @@
 +++
 title = "ആദിയിൽ ജീവനുണ്ടായിരുന്നു (5): തത്വങ്ങൾ വ്യഥയെ സന്ധിക്കുമ്പോൾ"
-date = 2026-03-17T10:00:00-08:00
+date = 2026-03-09T10:00:00-08:03
 draft = false
 slug = "adivil-jeevan-undarunnu-5-thathvangal-vyathaye-sandhikkumbol"
 tags = [
