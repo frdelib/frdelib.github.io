@@ -1,6 +1,6 @@
 +++
 title = "മഹത്വത്തിന്റെ വാതായനങ്ങൾ (3): സിനായ് പന്തോക്രേറ്റർ: മുഖം, അധികാരം, അഭിമുഖീകരണം"
-date = 2026-03-23T10:00:00-08:00
+date = 2026-03-13T10:00:00-08:00
 draft = false
 slug = "mahathvathinte-vathayanangal-3-sinai-pantokrator"
 tags = [
