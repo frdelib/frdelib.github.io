@@ -1,4 +1,4 @@
-baseURL = "https://frdelib.github.io/blog/"
+baseURL = "https://frdelib.org/"
 canonifyURLs = true
 languageCode = "en-us"
 title = "Snail Knight"

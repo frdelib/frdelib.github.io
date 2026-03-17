@@ -39,4 +39,3 @@ Image: <a href="https://commons.wikimedia.org/wiki/File:Perpetual_help_original_
 
 
 
-
