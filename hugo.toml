@@ -9,8 +9,6 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-[params]
-  env = "production"
 
 [pagination]
   pagerSize = 12
@@ -23,8 +21,8 @@ buildExpired = false
   posts = "/posts/:year/:month/:slug/"
 
 [params]
-  hideSummary = true
   env = "production"
+  hideSummary = true
   customCSS = ["css/extended/mathbox.css"]
   defaultTheme = "auto"
   disableThemeToggle = false
@@ -46,7 +44,6 @@ buildExpired = false
   [params.katex]
     enable = true
 
-
 [menu]
   [[menu.main]]
     name = "Posts"
@@ -60,7 +57,6 @@ buildExpired = false
     name = "Search"
     url = "search/"
     weight = 3
-
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
