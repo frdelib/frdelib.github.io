@@ -9,7 +9,8 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-
+[params]
+  env = "production"
 
 [pagination]
   pagerSize = 12
