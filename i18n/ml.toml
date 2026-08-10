@@ -1,0 +1,31 @@
+[prev_page]
+other = "മുമ്പ്"
+
+[next_page]
+other = "അടുത്തത്"
+
+[read_time]
+one = "1 മിനിറ്റ്"
+other = "{{ .Count }} മിനിറ്റ്"
+
+[words]
+one = "വാക്ക്"
+other = "{{ .Count }} വാക്കുകൾ"
+
+[toc]
+other = "ഉള്ളടക്കം"
+
+[translations]
+other = "വിവർത്തനങ്ങൾ"
+
+[home]
+other = "ഹോം"
+
+[edit_post]
+other = "തിരുത്തുക"
+
+[code_copy]
+other = "പകർത്തുക"
+
+[code_copied]
+other = "പകർത്തി!"
