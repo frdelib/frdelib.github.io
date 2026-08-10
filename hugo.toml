@@ -60,6 +60,14 @@ buildExpired = false
 
   mainSections = ["posts"]
 
+  # Real icon files so crawlers stop hitting 404s for theme-default paths
+  [params.assets]
+  favicon = "favicon.svg"
+  favicon16x16 = "favicon.svg"
+  favicon32x32 = "favicon.svg"
+  apple_touch_icon = "images/cover.png"
+  safari_pinned_tab = "safari-pinned-tab.svg"
+
   [params.katex]
     enable = true
 
