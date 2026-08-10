@@ -1,6 +1,7 @@
 baseURL = "https://frdelib.org/"
 canonifyURLs = true
-languageCode = "en-us"
+languageCode = "ml"
+defaultContentLanguage = "ml"
 title = "Snail Knight"
 description = "ശാസ്ത്രം, ദർശനം, ദൈവശാസ്ത്രം എന്നിവയുടെ പശ്ചാത്തലത്തിൽ മനുഷ്യാസ്തിത്വത്തെയും അതിഭൗതികതയെയും (മെറ്റാ ഫിസിക്സ്), ജ്ഞാനത്തെയും അപഗ്രഥിക്കുന്ന പ്രബന്ധങ്ങൾ; മനുഷ്യൻ എന്ന വ്യക്തിസത്തയുടെ (Human person) ധാർമ്മികമായ അർത്ഥത്തെയും പദവിയെയും കുറിച്ചുള്ള അന്വേഷണങ്ങൾ."
 theme = "PaperMod"
@@ -16,6 +17,24 @@ buildExpired = false
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+  # Keep thin tag/category pages out of the sitemap and out of Google's index,
+  # so crawl attention goes to the actual articles.
+  [[cascade]]
+  [cascade._target]
+  kind = "taxonomy"
+  [cascade.params]
+  robotsNoIndex = true
+  [cascade.sitemap]
+  disable = true
+
+  [[cascade]]
+  [cascade._target]
+  kind = "term"
+  [cascade.params]
+  robotsNoIndex = true
+  [cascade.sitemap]
+  disable = true
 
 [permalinks]
   posts = "/posts/:year/:month/:slug/"
